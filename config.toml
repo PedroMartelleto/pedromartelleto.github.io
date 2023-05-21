@@ -2,7 +2,6 @@ baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "Pedro Martelleto"
 theme = "hugo-digital-garden-theme"
-themesdir = "../../"
 copyright = "Pedro Martelleto Bressane Rezende ©"
 
 
