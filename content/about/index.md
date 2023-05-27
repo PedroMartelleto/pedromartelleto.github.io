@@ -1,13 +1,10 @@
 ---
-title: "Nigalya Ponya"
+title: "Pedro Martelleto B R"
 date: 2015-01-01
-summary: "Himalayan red panda"
+summary: "CS @ Universidade de São Paulo / TU Rheinland‑Pfalz"
 layout: about
 ---
 
-I have a reddish-brown fur, a long, shaggy tail, and a waddling gait due to my shorter front legs; I'm roughly the size of a domestic cat, though with a longer body.
-I live in trees and feed mainly on bamboo, but I also eat eggs, birds, and insects.
+I'm a CS student from Brazil, currently living in Germany. Since I was little, I've loved to code - it feels like a unique mix of giving creative space to logic while constructing something meaningful.
 
-I joined the IUCN Endangered species red list in 2008 as a result of a constant population decline caused by habitat loss, poaching and inbreed depression.
-
-For more information, you can take a look at my [Wikipedia page](https://en.wikipedia.org/wiki/Red_panda_)
+My areas of interest span everything from visuals (frontend and computer graphics), to apps (web, iOS), machine learning & data science, as well as lower-level code & algorithms (C, C++).

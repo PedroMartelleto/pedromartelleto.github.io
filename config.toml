@@ -2,19 +2,14 @@ baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "Pedro Martelleto"
 theme = "hugo-digital-garden-theme"
-copyright = "Pedro Martelleto Bressane Rezende ©"
-
+copyright = "Pedro ©"
+themesDir = "./hugo-themes/"
 
 [params]
   name = "Pedro Martelleto B R"
-  description = "Red panda living in the eastern Himalayas."
+  description = "CS @ Universidade de São Paulo, Brazil | Exchange @ TU Kaiserslautern, Germany"
   initials = "PM"
   googleAnalytics = ""
-
-  [[params.social]]
-    name = "Twitter"
-    link = "https://twitter.com/pedrombrezende"
-    icon = "fab fa-twitter"
 
   [[params.social]]
     name = "Github"
@@ -28,9 +23,13 @@ copyright = "Pedro Martelleto Bressane Rezende ©"
 
 
 [menu]
+  # [[menu.main]]
+  #   name = "Blog"
+  #   url = "/garden/"
+  #   weight = 1
   [[menu.main]]
-    name = "Blog"
-    url = "/garden/"
+    name = "Home"
+    url = "/"
     weight = 1
   [[menu.main]]
     name = "Projects"

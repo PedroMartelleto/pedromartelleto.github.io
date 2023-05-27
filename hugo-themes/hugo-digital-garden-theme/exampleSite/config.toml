@@ -1,0 +1,65 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Pedro Martelleto"
+theme = "hugo-digital-garden-theme"
+copyright = "Pedro Martelleto Bressane Rezende ©"
+
+
+[params]
+  name = "Pedro Martelleto B R"
+  description = "Red panda living in the eastern Himalayas."
+  initials = "PM"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Twitter"
+    link = "https://twitter.com/pedrombrezende"
+    icon = "fab fa-twitter"
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/PedroMartelleto"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/pedro-martelleto/"
+    icon = "fab fa-linkedin-in"
+
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/garden/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
