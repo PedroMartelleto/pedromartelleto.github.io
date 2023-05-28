@@ -4,7 +4,6 @@ icon: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/exter
 date: 2022-07-01
 draft: false
 project_tags: ["AI", "Web", "Typescript", "React"]
-status: "evergreen"
 summary: "Visualizing neuroevolution in videogames"
 weight: 1
 ---

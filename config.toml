@@ -1,13 +1,13 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
-title = "Pedro Martelleto"
+title = "Pedro M. B. Rezende"
 theme = "hugo-digital-garden-theme"
 copyright = "Pedro ©"
 themesDir = "./hugo-themes/"
 
 [params]
-  name = "Pedro Martelleto B R"
-  description = "CS @ Universidade de São Paulo, Brazil | Exchange @ TU Kaiserslautern, Germany"
+  name = "Pedro M. B. Rezende"
+  description = "CS @ Universidade de São Paulo, Brazil | Exchange @ Rheinland-Pfälzische TU, Germany"
   initials = "PM"
   googleAnalytics = ""
 
@@ -20,7 +20,6 @@ themesDir = "./hugo-themes/"
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/pedro-martelleto/"
     icon = "fab fa-linkedin-in"
-
 
 [menu]
   # [[menu.main]]

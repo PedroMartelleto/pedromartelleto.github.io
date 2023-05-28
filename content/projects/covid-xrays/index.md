@@ -4,7 +4,6 @@ icon: "https://user-images.githubusercontent.com/35240934/175382135-295616a9-b96
 date: 2022-05-01
 draft: false
 project_tags: ["AI", "Python", "JAX", "Pytorch", "DL", "COVID-19", "Google TRC"]
-status: "evergreen"
 summary: "Detecting and mitigating issues in image-based COVID-19 diagnosis"
 weight: 1
 ---

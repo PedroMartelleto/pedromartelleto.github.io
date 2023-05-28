@@ -4,7 +4,6 @@ icon: "https://user-images.githubusercontent.com/35240934/175382129-482ad244-573
 date: 2022-04-01
 draft: false
 project_tags: ["C++", "entt", "OpenGL", "Multithreading"]
-status: "evergreen"
 summary: "A simple 16-bit arena game implemented in modern C++ that features a multithreaded Job System and an Entity Component System."
 weight: 1
 ---

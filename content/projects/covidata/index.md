@@ -4,7 +4,6 @@ icon: "https://img.icons8.com/color/48/000000/coronavirus--v1.png"
 date: 2021-07-01
 draft: false
 project_tags: ["Java", "OOP", "JavaFX", "Maven"]
-status: "evergreen"
 summary: "A dashboard showing Brazil's COVID-19 data, written in Java"
 weight: 1
 ---
