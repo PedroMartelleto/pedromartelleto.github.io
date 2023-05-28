@@ -1,5 +1,5 @@
 ---
-title: "Pedro Martelleto B R"
+title: "Pedro M. B. Rezende"
 date: 2015-01-01
 summary: "CS @ Universidade de São Paulo / TU Rheinland‑Pfalz"
 layout: about
