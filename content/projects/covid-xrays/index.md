@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 X-Rays"
+title: "Investigating issues from current AI approaches to detecting COVID-19 from X-Rays"
 icon: "https://user-images.githubusercontent.com/35240934/175382135-295616a9-b96b-4186-9977-c273ce94e309.png"
 date: 2022-05-01
 draft: false

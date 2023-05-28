@@ -1,5 +1,5 @@
 ---
-title: "Automated breast cancer diagnosis"
+title: "Automated breast cancer diagnosis from digital biomarkers"
 icon: "https://i.imgur.com/GD1LCTG.png"
 date: 2023-01-01
 draft: false
