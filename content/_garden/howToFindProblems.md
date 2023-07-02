@@ -1,0 +1,1 @@
+https://www.indiehackers.com/post/how-do-you-find-problems-7da307ce6c
