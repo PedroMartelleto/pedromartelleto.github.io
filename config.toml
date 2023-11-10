@@ -7,7 +7,7 @@ themesDir = "./hugo-themes/"
 
 [params]
   name = "Pedro M. B. Rezende"
-  description = "CS @ Universidade de São Paulo, Brazil | Exchange @ Rheinland-Pfälzische TU, Germany"
+  description = "CS @ Universidade de São Paulo, Brazil"
   initials = "PM"
   googleAnalytics = ""
 
