@@ -60,11 +60,12 @@ table td{
   color: var(--grey);
 }
 
-.card{
+.card {
+  aspect-ratio: 16/9;
+  width: 100%;
+  object-fit: contain;
   border-radius: 4px;
   background: var(--offwhite);
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-  transition: 1s transform cubic-bezier(.155,1.105,.295,1.12),1s box-shadow,1s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 /* padding: 14px 80px 18px 36px; */
   cursor: pointer;
   font-family: var(--headings);
@@ -78,7 +79,6 @@ table td{
 }
 .card:hover{
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 .top-highlight:hover { 
   border-top-color: var(--blue);
@@ -94,6 +94,11 @@ table td{
   font-weight: lighter;
   color: var(--grey);
   font-size: x-small;
+}
+
+.underline {
+  text-decoration-color: rgb(250, 235, 215) !important;
+  text-decoration: underline !important;
 }
 
 @media(max-width: 990px){

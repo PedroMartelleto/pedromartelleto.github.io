@@ -1,13 +1,13 @@
-baseURL = "https://www.example.com"
+baseURL = ""
 languageCode = "en-us"
-title = "Pedro M. B. Rezende"
+title = "Pedro Martelleto"
 theme = "hugo-digital-garden-theme"
 copyright = "Pedro ©"
 themesDir = "./hugo-themes/"
 
 [params]
-  name = "Pedro M. B. Rezende"
-  description = "CS @ Universidade de São Paulo, Brazil"
+  name = "Pedro Martelleto"
+  description = ""
   initials = "PM"
   googleAnalytics = ""
 

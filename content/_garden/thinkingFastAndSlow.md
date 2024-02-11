@@ -1,3 +1,3 @@
-- How do you stop yourself from tunnel vision when coding?
+How do you stop yourself from tunnel vision when coding?
 
-- Which other areas of life do we tunnel vision in?
+Which other areas of life do we tunnel vision in?

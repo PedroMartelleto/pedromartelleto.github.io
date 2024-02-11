@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,700&display=swap');
+
 :root {
     --blue: #0A94C8;
     --lighter-blue: #addbec;
     --yellow: #FFB603;
     --red: #FF2F03;
-    --dark: #233044;
-    --grey: #454963;
-    --white: #fff;
+    --dark: rgb(13, 4, 43);
+    --grey: #233044;
+    --white: #fdfcf9;
     --offwhite: #fafafa;
-    --title: 'Mulish', sans-serif;
-    --summary: 'Frank Ruhl Libre', serif;
-    --headings: 'Encode Sans Semi Condensed', sans-serif;
+    --title: 'DM Sans', sans-serif;
+    --summary: 'DM Sans', sans-serif;
+    --headings: 'DM Sans', sans-serif;
 }
 
 /********************* General *********************/
@@ -23,7 +25,6 @@ body {
 
 #content {
   position: relative;
-  min-height: 95vh;
 }
 
 a {
@@ -60,29 +61,26 @@ table td{
   color: var(--grey);
 }
 
+/* -font-family-base: "DM Sans", sans-serif;
+--font-family-heading: "DM Sans", sans-serif;
+--font-family-monospace: "Fira Mono", monospace;
+--font-family-logo: "DM Sans", sans-serif; */
+
 .card{
-  border-radius: 4px;
   background: var(--offwhite);
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-  transition: 1s transform cubic-bezier(.155,1.105,.295,1.12),1s box-shadow,1s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-/* padding: 14px 80px 18px 36px; */
   cursor: pointer;
   font-family: var(--headings);
+  box-shadow: none;
+  border-radius: 5px;
+  border: none;
 }
 .card-title {
-  font-weight: 600;
+  font-weight: 500;
   font-family: var(--title);
+  font-size: 20px;
 }
 .card-footer {
-  background-color: var(--white);
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-.top-highlight:hover { 
-  border-top-color: var(--blue);
-  border-top-width: 2px;
+  background-color: none;
 }
 .card h3{
   font-weight: 600;
@@ -146,13 +144,19 @@ code {
 }
 .navbar-nav .nav-item .nav-link {
     color: var(--grey);
-    font-weight: 300;
     transition: color 1s;
-    display: block;
     position: relative;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: 0.2em 0;
+    font-size: 18px;
+    height: inherit;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: block;
+    padding: 6px 10px 6px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+.name-and-bio {
+  padding: 80px 0px 80px 0px;
 }
 /* Fade in */
 .nav-link::after {
@@ -178,13 +182,24 @@ code {
 
 .name {
   font-family: var(--title);
-  font-weight: 800;
+  font-size: 86px;
+  line-height: 1;
+  width: 80%;
+  letter-spacing: -2px;
+  font-weight: 700;
+}
+br {
+  margin: 0px;
+  padding: 0px;
 }
 
 .bio {
-  max-width: 750px;
-  font-weight: 200;
+  font-weight: 400;
   font-family: var(--summary);
+  font-size: 22px !important;
+  letter-spacing: -1px;
+  line-height: 27.28px;
+  color: rgb(59, 54, 76);
 }
 .heading {
     font-weight: 400;
@@ -226,7 +241,7 @@ code {
 
 /* ---- button-filters ---- */
 .button {
-  font-weight: 200;
+  font-weight: 300;
   display: inline-block;
   padding: 0.15em 0.5em;
   background: var(--white);
