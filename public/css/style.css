@@ -24,6 +24,7 @@ body {
 #content {
   position: relative;
   min-height: 95vh;
+  max-width: 1280px;
 }
 
 a {
@@ -95,11 +96,11 @@ table td{
   color: var(--grey);
   font-size: x-small;
 }
-
+/* 
 .underline {
-  text-decoration-color: rgb(250, 235, 215) !important;
-  text-decoration: underline !important;
-}
+  display: inline-block;
+  text-decoration: underline 0.10em rgb(250, 235, 215) !important;
+} */
 
 @media(max-width: 990px){
   .card{
