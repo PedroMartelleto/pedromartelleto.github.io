@@ -1,5 +1,15 @@
 /* Custom styles go here */
 
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+.bio {
+    margin-top: 15px;
+    font-weight: 400 !important;
+    font-size: 26px !important;
+}
+
 img[alt="Pedro Martelleto B R"] {
     max-width: 260px;
     border-radius: 2px;
@@ -15,12 +25,73 @@ video {
     margin-bottom: 32px;
 }
 
+.footer-container {
+    max-width: 1280px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.name > span {
+    text-decoration-color: #faebd7 !important;
+    text-decoration: underline;
+}
+
+nav {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block !important;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.name-and-bio {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #content {
-    max-width: 1280px;
+    display: block;
+    width: 100%;
+    padding: 0px;
 }
+
+.proj-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    flex-grow: 1;
+    width: 40% !important;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 760px) {
+    .proj-container {
+      display: block;
+    }
+    .card {
+        width: 100% !important;
+    }
+  }
+
+.card-img-top {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1280px !important;
+  }
+  

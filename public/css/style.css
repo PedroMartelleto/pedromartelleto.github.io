@@ -21,6 +21,7 @@ body {
   background-color: var(--white);
 }
 
+
 #content {
   position: relative;
   min-height: 95vh;

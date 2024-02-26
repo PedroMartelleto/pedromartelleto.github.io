@@ -4,7 +4,7 @@ icon: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/exter
 date: 2022-07-01
 draft: false
 project_tags: ["Fullstack", "JS", "Firebase", "OpenCV.js", "React", "Item Response Theory" ]
-summary: "Online WISIWYG platform for building mock exams for Brazil's University Entrance Exam"
+summary: "Online platform for building mock exams for Brazil's University Entrance Exam"
 weight: 1
 ---
 

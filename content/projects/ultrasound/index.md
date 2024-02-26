@@ -4,7 +4,7 @@ icon: "https://i.imgur.com/GD1LCTG.png"
 date: 2023-01-01
 draft: false
 project_tags: ["AI", "DFKI", "Pytorch", "DL"]
-summary: "A deep learning model that detects breast cancer + an interactive web interface with explainable AI"
+summary: "An interactive web interface with explainable AI"
 weight: 1
 ---
 

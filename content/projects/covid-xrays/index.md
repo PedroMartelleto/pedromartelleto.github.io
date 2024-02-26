@@ -1,10 +1,10 @@
 ---
-title: "Investigating issues from current AI approaches to detecting COVID-19 from X-Rays"
+title: "Issues in detecting COVID-19 from X-Rays"
 icon: "https://user-images.githubusercontent.com/35240934/175382135-295616a9-b96b-4186-9977-c273ce94e309.png"
 date: 2022-05-01
 draft: false
 project_tags: ["AI", "Python", "JAX", "Pytorch", "DL", "COVID-19", "Google TRC"]
-summary: "Detecting and mitigating issues in image-based COVID-19 diagnosis"
+summary: "Mitigating issues of current approaches to image-based COVID-19 diagnosis"
 weight: 1
 ---
 
