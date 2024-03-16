@@ -1,11 +1,13 @@
 ---
 title: "Book store"
 icon: "https://img.icons8.com/external-avoca-kerismaker/64/000000/external-Online-Book-digital-service-avoca-kerismaker.png"
-date: 2021-07-01
+date: 2023-04-01
 draft: false
 project_tags: ["JS", "Fullstack", "MongoDB", "React"]
 summary: "An online book store built using the MERN stack (MongoDB, Express, React, Node.js)"
 weight: 1
+params:
+  index: 1
 ---
 
 <div>

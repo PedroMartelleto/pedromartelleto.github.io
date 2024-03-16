@@ -1,11 +1,13 @@
 ---
 title: "Arena C++ Game"
 icon: "https://user-images.githubusercontent.com/35240934/175382129-482ad244-5739-4485-b9e4-959cbe844422.png"
-date: 2022-04-01
+date: 2023-04-01
 draft: false
 project_tags: ["C++", "entt", "OpenGL", "Multithreading"]
 summary: "A simple 16-bit arena game implemented in modern C++ that features a multithreaded Job System and an Entity Component System."
 weight: 1
+params:
+  index: 1
 ---
 
 <div>

@@ -1,11 +1,13 @@
 ---
 title: "Compila"
 icon: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-exam-university-flaticons-flat-flat-icons-3.png"
-date: 2022-07-01
+date: 2023-07-01
 draft: false
 project_tags: ["Fullstack", "JS", "Firebase", "OpenCV.js", "React", "Item Response Theory" ]
 summary: "Online platform for building mock exams for Brazil's University Entrance Exam"
 weight: 1
+params:
+  index: 2
 ---
 
 <div>

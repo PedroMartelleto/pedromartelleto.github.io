@@ -6,6 +6,8 @@ draft: false
 project_tags: ["Java", "OOP", "JavaFX", "Maven"]
 summary: "A dashboard showing Brazil's COVID-19 data, written in Java"
 weight: 1
+params:
+  index: 1
 ---
 
 <div>

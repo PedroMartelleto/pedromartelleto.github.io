@@ -6,6 +6,7 @@ draft: false
 project_tags: ["AI", "DFKI", "Pytorch", "DL"]
 summary: "An interactive web interface with explainable AI"
 weight: 1
+index: 1
 ---
 
 <div>

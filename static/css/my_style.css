@@ -34,6 +34,7 @@ video {
 .name > span {
     text-decoration-color: #faebd7 !important;
     text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
 body {
     display: block !important;
     flex-direction: row;
-    max-width: 1280px;
+    max-width: 1120px;
     margin: auto;
 }
 
@@ -85,13 +86,65 @@ body {
     }
   }
 
+.grad-1 > img {
+    background-image: linear-gradient(to bottom, #467f8e, #aedfe7);
+}
+
+.grad-2 > img {
+    background-image: linear-gradient(to bottom, #f7999f, #c8dff5);
+}
+
+.grad-3 > img {
+    background-image: linear-gradient(to bottom, #288ada, #abd1f0);
+}
+
+.grad-4 > img {
+background-image: linear-gradient(to bottom, #df6844, #ffc2d6);
+}
+
+.grad-5 > img {
+background-image: linear-gradient(to bottom, #66a6ff, #89f7fe);
+}
+
+.grad-6 > img {
+background-image: linear-gradient(to bottom, #ff9472, #f2709c);
+}
+
+h4 {
+    padding: 20px 20px 20px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0d042b;
+}
+
+h4 > span {
+    text-decoration-color: #faebd7 !important;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+}
+
 .card-img-top {
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.card-img-top-cover {
     aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 4px;
+    padding: 10px;
 }
 
-.container {
-    max-width: 1280px !important;
-  }
-  
+.see-all {
+    border: 1px solid #0d042b;
+    color: rgb(44, 43, 44);
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    border-radius: 12px;
+    padding: 8px 16px 8px 16px;
+}

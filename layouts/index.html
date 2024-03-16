@@ -39,17 +39,20 @@
 		{{ end }}
 	</div> -->
 	
-	<!-- Projects -->
 	<div class="proj-container">
-		{{ range ( where site.RegularPages "Section" "projects" | first 6 ) }}
-		{{ partial "home_project.html" . }}
+		{{ range $index, $page := where site.RegularPages "Section" "projects" | first 4 }}
+		<div class="card top-highlight {{ printf "grad-%d" (add $index 1) }}">
+            {{ partial "home_project.html" . }}
+        </div>
 		{{end}}
 		{{ with .Site.GetPage "section" "projects" }}
 		{{ end }}
 	</div>
+
 	<div class="d-flex flex-row-reverse">
-		<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
+		<a href="/projects" role="button" class="see-all btn btn-sm see-all">See all projects</a>
 	</div>
+
 
 	<!-- Library -->
 	<div class="container py-3">
@@ -71,7 +74,6 @@
 					<div class="col">
 						<div class="card">
 							{{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
-							{{ $img = $img.Fit "350x500" }}
 							{{ with $img }}
 							<img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img-top">
 							{{ end }}
