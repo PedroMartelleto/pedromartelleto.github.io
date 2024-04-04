@@ -16,6 +16,13 @@ params:
 
 ## About the project
 
-A platform for building mock exams for Brazil's University Entrance Exam (ENEM) (JS, React).
+A free platform for building mock exams for Brazil's University Entrance Exam (ENEM) (JS, React).
+
+Features:
+
+- 3000+ questions from past ENEM exams
+- Accessibility for vision-impaired students
+- Computer vision-powered grading
+- Item response theory for grading and question selection
 
 This project is not open-source, but <a href="https://compila-e88be.web.app/">you can use it here</a>.
