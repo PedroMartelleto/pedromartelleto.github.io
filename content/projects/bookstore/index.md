@@ -6,6 +6,7 @@ draft: false
 project_tags: ["JS", "Fullstack", "MongoDB", "React"]
 summary: "An online book store built using the MERN stack (MongoDB, Express, React, Node.js)"
 weight: 1
+categories: ["research"]
 params:
   index: 1
 ---

@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,700&display=swap');
+
 :root {
     --blue: #0A94C8;
     --lighter-blue: #addbec;
     --yellow: #FFB603;
     --red: #FF2F03;
-    --dark: #233044;
-    --grey: #454963;
-    --white: #fff;
+    --dark: rgb(13, 4, 43);
+    --grey: #233044;
+    --white: #fdfcf9;
     --offwhite: #fafafa;
-    --title: 'Mulish', sans-serif;
-    --summary: 'Frank Ruhl Libre', serif;
-    --headings: 'Encode Sans Semi Condensed', sans-serif;
+    --title: 'DM Sans', sans-serif;
+    --summary: 'DM Sans', sans-serif;
+    --headings: 'DM Sans', sans-serif;
 }
 
 /********************* General *********************/
@@ -21,11 +23,11 @@ body {
   background-color: var(--white);
 }
 
-
 #content {
   position: relative;
-  min-height: 95vh;
   max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a {
@@ -62,29 +64,26 @@ table td{
   color: var(--grey);
 }
 
-.card {
-  aspect-ratio: 16/9;
-  width: 100%;
-  object-fit: contain;
-  border-radius: 4px;
+/* -font-family-base: "DM Sans", sans-serif;
+--font-family-heading: "DM Sans", sans-serif;
+--font-family-monospace: "Fira Mono", monospace;
+--font-family-logo: "DM Sans", sans-serif; */
+
+.card{
   background: var(--offwhite);
-/* padding: 14px 80px 18px 36px; */
   cursor: pointer;
   font-family: var(--headings);
+  box-shadow: none;
+  border-radius: 5px;
+  border: none;
 }
 .card-title {
-  font-weight: 600;
+  font-weight: 500;
   font-family: var(--title);
+  font-size: 20px;
 }
 .card-footer {
-  background-color: var(--white);
-}
-.card:hover{
-  transform: scale(1.05);
-}
-.top-highlight:hover { 
-  border-top-color: var(--blue);
-  border-top-width: 2px;
+  background-color: none;
 }
 .card h3{
   font-weight: 600;
@@ -97,11 +96,6 @@ table td{
   color: var(--grey);
   font-size: x-small;
 }
-/* 
-.underline {
-  display: inline-block;
-  text-decoration: underline 0.10em rgb(250, 235, 215) !important;
-} */
 
 @media(max-width: 990px){
   .card{
@@ -153,14 +147,19 @@ code {
 }
 .navbar-nav .nav-item .nav-link {
     color: var(--grey);
-    font-weight: 300;
     transition: color 1s;
-    display: block;
     position: relative;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: 0.2em 0;
+    font-size: 18px;
+    height: inherit;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: block;
+    padding: 6px 10px 6px 10px;
+    text-decoration: none;
+    color: inherit;
 }
+
+
 /* Fade in */
 .nav-link::after {
   content: '';
@@ -183,15 +182,37 @@ code {
 
 /********************* Home *********************/
 
-.name {
-  font-family: var(--title);
-  font-weight: 800;
+
+/* Set the container to be square and crop overflow */
+.profile-picture-container {
+  width: 25%;            /* This makes it 25% of its parent's width */
+  max-width: 150px;       /* Alternatively, set a max size */
+  aspect-ratio: 1 / 1;     /* Ensure the container is a square */
+  overflow: hidden;        /* Hide parts of the image outside the container */
+  margin-bottom: 20px;     /* Optional: add some spacing */
+}
+
+/* Style the image inside the container */
+.profile-picture-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Crop the image to fill the container */
+  object-position: center; /* Center the image within the container */
+  border-radius: 50%;      /* Make it a circle */
+}
+
+br {
+  margin: 0px;
+  padding: 0px;
 }
 
 .bio {
-  max-width: 750px;
-  font-weight: 200;
+  font-weight: 400;
   font-family: var(--summary);
+  font-size: 22px !important;
+  letter-spacing: -1px;
+  line-height: 27.28px;
+  color: rgb(59, 54, 76);
 }
 .heading {
     font-weight: 400;
@@ -233,7 +254,7 @@ code {
 
 /* ---- button-filters ---- */
 .button {
-  font-weight: 200;
+  font-weight: 300;
   display: inline-block;
   padding: 0.15em 0.5em;
   background: var(--white);

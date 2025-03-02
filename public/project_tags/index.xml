@@ -2,47 +2,187 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project_tags on Pedro Martelleto</title>
-    <link>https://www.example.com/project_tags/</link>
+    <link>/project_tags/</link>
     <description>Recent content in Project_tags on Pedro Martelleto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Pedro Martelleto Bressane Rezende ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/project_tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Pedro ©</copyright>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>markdown</title>
-      <link>https://www.example.com/project_tags/markdown/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.example.com/project_tags/markdown/</guid>
+      <title>AI</title>
+      <link>/project_tags/ai/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docs</title>
-      <link>https://www.example.com/project_tags/docs/</link>
+      <title>Firebase</title>
+      <link>/project_tags/firebase/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/firebase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fullstack</title>
+      <link>/project_tags/fullstack/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/fullstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Item Response Theory</title>
+      <link>/project_tags/item-response-theory/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/item-response-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JS</title>
+      <link>/project_tags/js/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenCV.js</title>
+      <link>/project_tags/opencv.js/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/opencv.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>/project_tags/react/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typescript</title>
+      <link>/project_tags/typescript/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>/project_tags/web/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>/project_tags/c&#43;&#43;/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>entt</title>
+      <link>/project_tags/entt/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/entt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MongoDB</title>
+      <link>/project_tags/mongodb/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/mongodb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multithreading</title>
+      <link>/project_tags/multithreading/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/multithreading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenGL</title>
+      <link>/project_tags/opengl/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/opengl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DFKI</title>
+      <link>/project_tags/dfki/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/dfki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DL</title>
+      <link>/project_tags/dl/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/dl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytorch</title>
+      <link>/project_tags/pytorch/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/project_tags/pytorch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>COVID-19</title>
+      <link>/project_tags/covid-19/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/project_tags/covid-19/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google TRC</title>
+      <link>/project_tags/google-trc/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/project_tags/google-trc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JAX</title>
+      <link>/project_tags/jax/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/project_tags/jax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>/project_tags/python/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/project_tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>/project_tags/java/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.example.com/project_tags/docs/</guid>
+      <guid>/project_tags/java/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>how-to</title>
-      <link>https://www.example.com/project_tags/how-to/</link>
+      <title>JavaFX</title>
+      <link>/project_tags/javafx/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.example.com/project_tags/how-to/</guid>
+      <guid>/project_tags/javafx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webapp</title>
-      <link>https://www.example.com/project_tags/webapp/</link>
+      <title>Maven</title>
+      <link>/project_tags/maven/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.example.com/project_tags/webapp/</guid>
+      <guid>/project_tags/maven/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>OOP</title>
+      <link>/project_tags/oop/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/project_tags/oop/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

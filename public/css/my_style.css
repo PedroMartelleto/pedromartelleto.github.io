@@ -1,1 +1,150 @@
 /* Custom styles go here */
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+.bio {
+    margin-top: 15px;
+    font-weight: 400 !important;
+    font-size: 26px !important;
+}
+
+img[alt="Pedro Martelleto B R"] {
+    max-width: 260px;
+    border-radius: 2px;
+    /* drop shadow */
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.2);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+.footer-container {
+    max-width: 1280px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.name > span {
+    text-decoration-color: #faebd7 !important;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+nav {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    display: block !important;
+    flex-direction: row;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.name-and-bio {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#content {
+    display: block;
+    width: 100%;
+    padding: 0px;
+}
+
+.proj-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    flex-grow: 1;
+    width: 40% !important;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 760px) {
+    .proj-container {
+      display: block;
+    }
+    .card {
+        width: 100% !important;
+    }
+  }
+
+.grad-1 > img {
+    background-image: linear-gradient(to bottom, #467f8e, #aedfe7);
+}
+
+.grad-2 > img {
+    background-image: linear-gradient(to bottom, #f7999f, #c8dff5);
+}
+
+.grad-3 > img {
+    background-image: linear-gradient(to bottom, #288ada, #abd1f0);
+}
+
+.grad-4 > img {
+background-image: linear-gradient(to bottom, #df6844, #ffc2d6);
+}
+
+.grad-5 > img {
+background-image: linear-gradient(to bottom, #66a6ff, #89f7fe);
+}
+
+.grad-6 > img {
+background-image: linear-gradient(to bottom, #ff9472, #f2709c);
+}
+
+h4 {
+    padding: 20px 20px 20px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0d042b;
+}
+
+h4 > span {
+    text-decoration-color: #faebd7 !important;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+}
+
+.card-img-top {
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.card-img-top-cover {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.see-all {
+    border: 1px solid #0d042b;
+    color: rgb(44, 43, 44);
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    border-radius: 12px;
+    padding: 8px 16px 8px 16px;
+}

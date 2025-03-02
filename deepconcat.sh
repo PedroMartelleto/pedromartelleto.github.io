@@ -1,0 +1,1 @@
+/Users/pedro/deepconcat/deepconcat.sh -i html,css,xml,md,toml -x min.css -xd .idea,.github,.git .

@@ -9,14 +9,14 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-        {{- $currentPage := . -}}
-        {{ range .Site.Menus.main -}}
-            <li class='nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
-                <a class="nav-link" href="{{ .URL }}"> {{ .Name }}</a>
-            </li>
-        {{ end }} 
-        </ul>
-    </div>
+<!--    <div class="collapse navbar-collapse" id="navbarNavDropdown">-->
+<!--&lt;!&ndash;        <ul class="navbar-nav ms-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;        {{- $currentPage := . -}}&ndash;&gt;-->
+<!--&lt;!&ndash;        {{ range .Site.Menus.main -}}&ndash;&gt;-->
+<!--&lt;!&ndash;            <li class='nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" href="{{ .URL }}"> {{ .Name }}</a>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;        {{ end }} &ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+<!--    </div>-->
 </nav>

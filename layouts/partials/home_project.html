@@ -1,9 +1,16 @@
 {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
-{{ if $img }}
-{{ with $img }}
-<!-- Set a different image class depending on the index of this child -->
-<img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img-top">
-{{ end }}
+{{ $video := (.Resources.ByType "video").GetMatch "*featured*" }}
+
+{{ if $video }}
+<div class="video-card">
+    <video autoplay loop muted playsinline class="card-img-top">
+        <source src="{{ $video.Permalink }}" type="{{ $video.MediaType.Type }}">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay"></div>
+</div>
+{{ else if $img }}
+<img src="{{ $img.Permalink }}" alt="{{ .Title }}" class="card-img-top">
 {{ end }}
 <div class="card-body">
     <h5 class="card-title">{{ .Title }}</h5>

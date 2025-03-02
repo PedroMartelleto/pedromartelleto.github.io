@@ -12,7 +12,6 @@
 		<div>
 			<h2 class="bio lh-base fs-1 serif">
 				CS @ Universidade de São Paulo, Brazil<br/>
-				Exchange student @ Universität Bern
 			</h2>
 		</div>
 	</div>
@@ -44,11 +43,11 @@
 		{{ range ( where site.RegularPages "Section" "projects" | first 6 ) }}
 		{{ partial "home_project.html" . }}
 		{{end}}
-		{{ with .Site.GetPage "section" "projects" }}
-		<div class="d-flex flex-row-reverse">
-			<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
-		</div>    
-		{{ end }}
+<!--		{{ with .Site.GetPage "section" "projects" }}-->
+<!--		<div class="d-flex flex-row-reverse">-->
+<!--			<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>-->
+<!--		</div>    -->
+<!--		{{ end }}-->
 	</div>
 
 	<!-- Library -->

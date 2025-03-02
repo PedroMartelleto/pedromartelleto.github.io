@@ -1,11 +1,12 @@
 ---
-title: "AI Playground"
+title: "Neuroevolution"
 icon: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-neural-network-the-future-flaticons-flat-flat-icons.png"
 date: 2023-07-01
 grad: "grad-1"
 draft: false
 project_tags: ["AI", "Web", "Typescript", "React"]
 summary: "Visualizing neuroevolution in videogames on the browser"
+categories: ["research"]
 params:
   index: 1
 weight: 1

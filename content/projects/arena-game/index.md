@@ -6,6 +6,7 @@ draft: false
 project_tags: ["C++", "entt", "OpenGL", "Multithreading"]
 summary: "A simple 16-bit arena game implemented in modern C++ that features a multithreaded Job System and an Entity Component System."
 weight: 1
+categories: ["research"]
 params:
   index: 1
 ---

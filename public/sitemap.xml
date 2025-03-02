@@ -2,91 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.example.com/projects/project2/</loc>
+    <loc>/projects/aiplayground/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/compila/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/arena-game/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/bookstore/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/ultrasound/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/covid-xrays/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/covidata/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/projects/project1/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <loc>/project_tags/ai/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/projects/project3/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <loc>/project_tags/firebase/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/project_tags/markdown/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <loc>/project_tags/fullstack/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+    <loc>/project_tags/item-response-theory/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/project_tags/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <loc>/project_tags/js/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/projects/</loc>
+    <loc>/project_tags/opencv.js/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/react/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/typescript/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/web/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/c&#43;&#43;/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/entt/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/mongodb/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/multithreading/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/opengl/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/dfki/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/dl/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/pytorch/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/covid-19/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/google-trc/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/jax/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project_tags/python/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/library_tags/conservation/</loc>
+    <loc>/library_tags/conservation/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/library_tags/</loc>
+    <loc>/library_tags/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/_library/book1/</loc>
+    <loc>/_library/book1/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/library_tags/red-panda/</loc>
+    <loc>/library_tags/red-panda/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/project_tags/docs/</loc>
+    <loc>/project_tags/java/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/project_tags/how-to/</loc>
+    <loc>/project_tags/javafx/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/project_tags/webapp/</loc>
+    <loc>/project_tags/maven/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden/</loc>
+    <loc>/project_tags/oop/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/_garden/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/_library/book2/</loc>
+    <loc>/_library/book2/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/library_tags/kids/</loc>
+    <loc>/library_tags/kids/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/_library/</loc>
+    <loc>/_library/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden_tags/bamboo/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.example.com/garden_tags/cleaning/</loc>
+    <loc>/_garden/essentialism/</loc>
     <lastmod>2019-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden_tags/food/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.example.com/garden_tags/fur/</loc>
+    <loc>/garden_tags/cleaning/</loc>
     <lastmod>2019-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden_tags/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.example.com/garden_tags/nap/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.example.com/garden/seeding_example/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.example.com/garden/evergreen_example/</loc>
+    <loc>/garden_tags/fur/</loc>
     <lastmod>2019-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden/growing_example/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <loc>/garden_tags/</loc>
+    <lastmod>2019-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/garden_tags/trees/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <loc>/_garden/cook/</loc>
+    <lastmod>2019-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/_garden/85_15/</loc>
+  </url><url>
+    <loc>/_garden/animationapp/</loc>
+  </url><url>
+    <loc>/_garden/antifragility/</loc>
+  </url><url>
+    <loc>/_garden/howtofindproblems/</loc>
+  </url><url>
+    <loc>/_garden/positivelybiased/</loc>
+  </url><url>
+    <loc>/_garden/research/</loc>
+  </url><url>
+    <loc>/_garden/tea/</loc>
+  </url><url>
+    <loc>/_garden/thedoitallfrustration/</loc>
+  </url><url>
+    <loc>/_garden/thinkingfastandslow/</loc>
   </url>
 </urlset>

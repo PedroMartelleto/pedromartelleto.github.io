@@ -6,6 +6,7 @@ draft: false
 project_tags: ["Fullstack", "JS", "Firebase", "OpenCV.js", "React", "Item Response Theory" ]
 summary: "Online platform for building mock exams for Brazil's University Entrance Exam"
 weight: 1
+categories: ["research"]
 params:
   index: 2
 ---

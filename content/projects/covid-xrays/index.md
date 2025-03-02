@@ -6,6 +6,7 @@ draft: false
 project_tags: ["AI", "Python", "JAX", "Pytorch", "DL", "COVID-19", "Google TRC"]
 summary: "Mitigating issues of current approaches to image-based COVID-19 diagnosis"
 weight: 1
+categories: ["research"]
 index: 1
 ---
 

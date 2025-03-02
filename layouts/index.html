@@ -2,94 +2,75 @@
 
 <div class="name-and-bio">
 	<div>
-		<div>
-			<h1 class="name display-1">
-				Pedro <span>Martelleto</span>
-			</h1>
-		</div>
-	</div>
-	<div>
-		<div>
-			<h2 class="bio lh-base fs-1 serif">
-				CS @ Universidade de São Paulo, Brazil<br/>
-				Exchange student @ Universität Bern
-			</h2>
+		<div style="display: flex; flex-direction: row; gap: 30px; vertical-align: center;">
+			<img src="https://i.imgur.com/d6zTsvw.png" alt="Profile Picture" style="width:84px; height: 84px; object-fit:cover; object-position:center; border-radius:50%;" />
+			<div>
+				<h1 class="name display-1">
+					Pedro <span>Martelleto</span>
+				</h1>
+				<h2 class="bio lh-base fs-1 serif">
+					CS @ Universidade de São Paulo, Brazil<br/>
+				</h2>
+				<div>
+					My goal is to build intelligent systems that can perceive & understand the world as we do
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 
 <div>
-	<!-- Garden / Blog -->
-	<!-- <div class="col-lg-4">
-		{{ with .Site.GetPage "section" "garden" }}
-		<div class="pb-4">
-			<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
-		</div>      
-		{{ if .Summary }} <p class="subheading">{{ .Summary }}</p> {{ end }}
-		{{ end }}
-		<div class="row row-cols-1 g-4 mb-5">
-			{{ range ( where site.RegularPages "Section" "garden" | first 6 ) }}
-			{{ partial "home_garden.html" . }}
+	<!-- Your projects and library content goes here -->
+	<div class="proj-container">
+		{{ range $index, $page := where site.RegularPages "Section" "projects" }}
+		<div class="card top-highlight {{ printf "grad-%d" (add $index 1) }}">
+		{{ partial "home_project.html" . }}
+	</div>
+	{{ end }}
+</div>
+
+<!--<div class="d-flex flex-row-reverse">-->
+<!--	<a href="/projects" role="button" class="see-all btn btn-sm see-all">See all projects</a>-->
+<!--</div>-->
+
+<!-- Library section -->
+<div class="container py-3">
+	<div class="row justify-content-between my-5">
+		<div class="col-sm-4 col-lg-3">
+			{{ with .Site.GetPage "section" "library" }}
+			<div class="pb-4">
+				<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			</div>
+			{{ if .Summary }}
+			<p class="subheading">{{ .Summary }}</p>
+			{{ end }}
+			<div class="d-flex">
+				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all books</a>
+			</div>
 			{{ end }}
 		</div>
-		{{ with .Site.GetPage "section" "garden" }}
-		<div class="d-flex flex-row-reverse">
-			<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all articles</a>
-		</div>
-		{{ end }}
-	</div> -->
-	
-	<div class="proj-container">
-		{{ range $index, $page := where site.RegularPages "Section" "projects" | first 4 }}
-		<div class="card top-highlight {{ printf "grad-%d" (add $index 1) }}">
-            {{ partial "home_project.html" . }}
-        </div>
-		{{end}}
-		{{ with .Site.GetPage "section" "projects" }}
-		{{ end }}
-	</div>
-
-	<div class="d-flex flex-row-reverse">
-		<a href="/projects" role="button" class="see-all btn btn-sm see-all">See all projects</a>
-	</div>
-
-
-	<!-- Library -->
-	<div class="container py-3">
-		<div class="row justify-content-between my-5">
-			<div class="col-sm-4 col-lg-3">
-				{{ with .Site.GetPage "section" "library" }}
-				<div class="pb-4">
-					<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
-				</div>
-				{{ if .Summary }} <p class="subheading">{{ .Summary }}</p> {{ end }}
-				<div class="d-flex">
-					<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all books</a>
+		<div class="col me-auto">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+				{{ range ( where site.RegularPages "Section" "library" | first 3 ) }}
+				<div class="col">
+					<div class="card">
+						{{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
+						{{ with $img }}
+						<img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img-top">
+						{{ end }}
+						<div class="card-body">
+							<h5 class="card-title">{{ .Title }}</h5>
+							<p class="card-text">
+							<figcaption class="blockquote-footer">{{ .Params.Author}}</figcaption>
+							</p>
+							<a href="{{ .Permalink }}" class="stretched-link"></a>
+						</div>
+					</div>
 				</div>
 				{{ end }}
 			</div>
-			<div class="col me-auto">
-				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-					{{ range ( where site.RegularPages "Section" "library" | first 3 ) }}
-					<div class="col">
-						<div class="card">
-							{{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
-							{{ with $img }}
-							<img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img-top">
-							{{ end }}
-							<div class="card-body">
-								<h5 class="card-title">{{ .Title }}</h5>
-								<p class="card-text">
-									<figcaption class="blockquote-footer">{{ .Params.Author}}</figcaption>
-								</p>
-								<a href="{{ .Permalink }}" class="stretched-link"></a>
-							</div>
-						</div>  
-					</div>
-					{{end}}
-				</div>
-			</div>
 		</div>
 	</div>
+</div>
 </div>
 {{ end }}

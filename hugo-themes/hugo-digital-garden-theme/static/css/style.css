@@ -179,13 +179,15 @@ code {
   transform: translate3d(0, 0.2em, 0);
 }
 
-
+.name-and-bio {
+  padding: 40px 0px 60px 0px !important;
+}
 
 /********************* Home *********************/
 
 .name {
   font-family: var(--title);
-  font-size: 86px;
+  font-size: 34px !important;
   line-height: 1;
   width: 80%;
   letter-spacing: -2px;
