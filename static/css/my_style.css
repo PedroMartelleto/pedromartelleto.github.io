@@ -86,27 +86,27 @@ body {
     }
   }
 
-.grad-1 > img {
+.grad-1 > img, video {
     background-image: linear-gradient(to bottom, #467f8e, #aedfe7);
 }
 
-.grad-2 > img {
+.grad-2 > img, video {
     background-image: linear-gradient(to bottom, #f7999f, #c8dff5);
 }
 
-.grad-3 > img {
+.grad-3 > img, video {
     background-image: linear-gradient(to bottom, #288ada, #abd1f0);
 }
 
-.grad-4 > img {
+.grad-4 > img, video {
 background-image: linear-gradient(to bottom, #df6844, #ffc2d6);
 }
 
-.grad-5 > img {
+.grad-5 > img, video {
 background-image: linear-gradient(to bottom, #66a6ff, #89f7fe);
 }
 
-.grad-6 > img {
+.grad-6 > img, video {
 background-image: linear-gradient(to bottom, #ff9472, #f2709c);
 }
 
@@ -128,7 +128,7 @@ h4 > span {
     aspect-ratio: 16/9;
     object-fit: contain;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px;
 }
 
 .card-img-top-cover {
