@@ -1,7 +1,7 @@
 ---
 title: "Pedro Martelleto"
 date: 2015-01-01
-summary: "CS @ Universidade de São Paulo\nExchange student @ Universität Bern"
+summary: "Direct Doctorate @ ETH Zürich"
 layout: about
 ---
 
